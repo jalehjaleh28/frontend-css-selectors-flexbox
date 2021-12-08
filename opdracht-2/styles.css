@@ -3,3 +3,67 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+body{
+    width: 100vw;
+
+}
+.one{
+   display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.two{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.three{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.three ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+
+}
+.four{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+div form{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.five{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /*flex-wrap: nowrap;*/
+    flex-direction: row;
+
+
+}
+@media only screen and (max-width: 800px ) {
+    .five{
+
+
+    }
+    .five_last{
+        flex-grow: 2;
+        flex-wrap: wrap;
+
+    }
+
+}
